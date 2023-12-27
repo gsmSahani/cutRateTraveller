@@ -1,0 +1,38 @@
+ <div class="container-fluid mt-5 about-style" id="contactid">
+    <div class="row">
+        <div class="col-md-10 col-12 mx-auto">
+            <h1 class="text-center main-heading">Contact us</h1>
+            <p class="text-center sub-heading">All Indian States and Union
+                Territories and Country</p>
+            <div class="row">
+                <div class="col-md-6 col-12 mx-auto">
+                    <form action="/contact" method="POST">
+                        <div class="form-group">
+                            <label for="exampleInputPassword">Name</label>
+                            <input type="text" class="form-control" id="expampleInputPassword" placeholder="Full Name" name="name">
+                        </div>
+                        {{!-- email --}}
+                        <div class="form-group">
+                            <label for="exampleInputEmail">Email</label>
+                            <input type="email" class="form-control" id="expampleInputEmail" 
+                           aria-describedby="emailHelp" placeholder="Your Email" name="email">
+                            <small id="emailHelp" class="form-text text muted" >We will contact you soon</small>
+                        </div>
+                        {{!-- phone --}}
+                        <div class="form-group">
+                            <label for="exampleInputPhone">Phone</label>
+                            <input type="number" class="form-control" id="expampleInputPassword" placeholder="Phone Number" name="phone">
+                        </div>
+                        {{!-- message    --}}
+                        <div class="form-group">
+                            <label for="exampleInputPassword">Message</label>
+                            <input type="text" class="form-control" id="expampleInputPassword1" placeholder="Message" name="message">
+                        </div>
+                        {{!-- button --}}
+                        <button type="submit" class="btn-style btn-primary">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
